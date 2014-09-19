@@ -2,7 +2,7 @@
   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
   ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
 
-  g = log --graph --date-order -C -M --pretty=format:'%C(yellow)%h%Creset - %C(green)%ad%Creset - %C(blue)%an%Creset %C(bold red)>%Creset %C(white)%s%Creset %C(bold red)%d%Creset' --abbrev-commit --date=short
+  g = log --graph --date-order -C -M --pretty=format:'%C(yellow)%h%Creset - %C(green)%ad%Creset - %C(blue)%an%Creset %C(bold red)>%Creset %C(white)%s%Creset %C(bold red)%d%Creset' --abbrev-commit --date=short --all
   
   # log commits in branch
   lb = "!f() { git ls $(git rev-parse --abbrev-ref HEAD) --not master; }; f"
