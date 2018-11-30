@@ -6,7 +6,7 @@ mostly [`mathiasbynens`](https://github.com/mathiasbynens) dotfiles
 Clone the repository and update your `~`
 
 ```bash
-git clone https://github.com/ben-cz/dotfiles.git && cd dotfiles && ./sync.sh
+git clone https://github.com/jakub-dohnal/dotfiles.git && cd dotfiles && ./sync.sh
 ```
 
 To update without confirmation dialog, add -f flag:
